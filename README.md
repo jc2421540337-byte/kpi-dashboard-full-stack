@@ -1,5 +1,11 @@
 # KPI Dashboard (Full Stack)
 
+# Screen Shot
+- Dashboard 
+![alt text](kpi_dashboard_1.png)
+![alt text](kpi_dashboard_2.png)
+- Manage data
+![alt text](kpi_manage_data_1.png)
 ## Features
 - Interactive dashboard with charts
 - CRUD operations (Create, Read, Update, Delete)
