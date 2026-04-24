@@ -25,16 +25,16 @@ export default function KpiForm({ onCreate }) {
 
   return (
     <div style={{ marginBottom: '20px' }}>
-      <input placeholder="Day" value={form.day}
+      <input name="day" placeholder="Day" value={form.day}
         onChange={e => handleChange('day', e.target.value)} />
 
-      <input placeholder="Fuel" type="number" value={form.fuel}
+      <input name="fuel" placeholder="Fuel" type="number" value={form.fuel}
         onChange={e => handleChange('fuel', e.target.value)} />
 
-      <input placeholder="Productivity" type="number" value={form.productivity}
+      <input name="productivity" placeholder="Productivity" type="number" value={form.productivity}
         onChange={e => handleChange('productivity', e.target.value)} />
 
-      <input placeholder="Cost" type="number" value={form.cost}
+      <input name="cost" placeholder="Cost" type="number" value={form.cost}
         onChange={e => handleChange('cost', e.target.value)} />
 
       <button onClick={handleSubmit}>Add</button>
