@@ -22,15 +22,15 @@
 ## Setup
 
 ### Backend
-cd backend
-pip install -r requirements.txt
-python app.py
-Set environment variable DB_PASSWORD
+cd backend  
+pip install -r requirements.txt  
+python app.py  
+Set environment variable DB_PASSWORD  
 
 ### Frontend
-cd frontend
-npm install
-npm run dev
+cd frontend  
+npm install  
+npm run dev  
 
 ## Highlights
 - Component-based architecture
